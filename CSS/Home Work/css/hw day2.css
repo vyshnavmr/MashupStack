@@ -1,0 +1,97 @@
+body{
+    background-color: azure;
+    margin: 10px;
+}
+#box{
+    background-color: bisque;
+    /* short-hand border */
+    border: 2px solid brown;
+    border-radius: 25px;
+    text-align: center;
+    /* short-hand padding */
+    padding: 20px 20px 20px 20px;
+    /* short-hand margin */
+    margin: 10px 10px 10px 10px;
+    height: 630px;
+    width: auto;
+}
+img{
+    min-width: 200px;
+    max-width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+h3{
+    color: brown;
+    text-decoration: dashed underline burlywood;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#prod-name{
+    font-weight: bold;
+    font-size: 15px;
+}
+h4{
+    color:brown;
+    font-size: 18px;
+}
+#inner{  
+    background-color: cornsilk;
+    border: 2px solid ;
+    /* short-hand border colour */
+    border-color: brown black violet greenyellow;
+    border-radius: 4%;
+    margin: 10px;
+}
+form{
+    color: brown;
+    max-width: 350;
+    margin: 20px;
+}
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+select{
+    width: 25%;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin : 25px 0 15px 0;
+    padding: 7px;;
+}
+
+.sizes{
+    border: 1px solid brown;
+    border-radius: 30% ;
+    display: inline-block;
+    padding: 8px;
+    font-weight: bolder;
+}
+.sizes:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#eight{
+    background-color: red;
+    text-decoration: line-through black;
+}
+
+#eight:hover{
+    cursor:not-allowed;
+    color: black;
+}
