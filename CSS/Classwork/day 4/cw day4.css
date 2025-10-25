@@ -33,9 +33,6 @@ div p{
 div h1{
     margin-left: 20px;
 }
-.material-symbols-outlined {
-  
-}
 .material-symbols-outlined:hover {
   color: red;
   cursor: pointer;
