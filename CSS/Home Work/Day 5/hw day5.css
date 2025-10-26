@@ -23,6 +23,9 @@ body{
     color: brown;
 }
 
+.caption::first-line{
+    font-weight: bold;
+}
 
 .caption::first-letter{
     color: blueviolet;
