@@ -1,0 +1,73 @@
+@media only screen and (max-widthP:600px){
+    .blog1{
+        flex-direction: vertical;
+        align-items: center;
+        font-size: 50%;
+    }
+}
+
+@media only screen and (orientation: portrait){
+    #blog1{
+        background-color: lightyellow;
+    }
+}
+
+#blog1{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #333;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+/* src ending with .jpg has round corners  */
+img[src$=".jpg"]{
+    height: auto;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* src ending with .png has round corners */
+img[src$=".png"]{
+    height: auto;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contents:hover{
+    transition: ease;
+    transform: translateY(-2px);
+}
+
+.name{
+    color: rgb(96, 190, 221);
+}
+
+/* Used SELECTOR for making <a> tags red */
+[href^="https"]{
+    color: red;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+}
+.read-more:hover{
+    color: rgb(90, 90, 186);
+    text-decoration: dotted underline;
+}
+
+.contents{
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 15px 10px;
+    width: 250px;
+    height: auto;
+}
+
