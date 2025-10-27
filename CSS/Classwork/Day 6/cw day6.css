@@ -1,0 +1,51 @@
+body{
+    background-color: beige;
+}
+
+#card{
+    background-color: rgb(211, 246, 131);
+    height: auto;
+    width: 250px;
+    padding: 20px;
+}
+.img{
+    border: 2px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 75%;
+    height: auto;
+}
+.button{
+    background-color: blanchedalmond;
+    color: black;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    text-decoration: double underline;
+    color: brown;
+}
+.button:hover{
+    border: 1px solid blue;
+    background-color:#4c92dc;
+    text-decoration: dotted underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    #card{
+        background-color: lightblue;
+    }
+}
