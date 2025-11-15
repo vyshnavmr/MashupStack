@@ -15,10 +15,10 @@ body{
 #left-block{
     width: 50%;
     height: 100vh;
-    background-image: linear-gradient(to bottom left,#99a3e2,#e1b48a);
+    background-image: linear-gradient(#ab96c6,#e1b48a);
 }
 #form{
-    width: 350px;
+    width: 50%;        
     background: white;
     margin: 0px 30px;
 }
@@ -30,7 +30,8 @@ button{
     border: none;
     color: white;
     font-size: 16px;
-    border-radius: 3px;
+    border-radius: 3px
+    
 }
 button:hover{
     background-color: #f0807c;
@@ -46,6 +47,13 @@ button:hover{
     font-size: 30px;
     color: #d9534f;
 }
+label[for="password"],label[for="email"]{
+     font-weight: bold;   
+    }
+
+/* label{
+    font-weight: bold;
+} */
 
 /* Mobile screen view */
 @media only screen and (max-width: 767px){
@@ -55,7 +63,7 @@ button:hover{
     }
 
     #left-block{
-        /* removes the background on left side block  */
+        /* removes the left side block  */
         display: none;
     }
 
@@ -68,7 +76,5 @@ button:hover{
     /* #form_head{
         font-size: 35px;
     }
-    label[for="password"],label[for="email"]{
-        font-weight: bold;
-    } */
+     */
 }
